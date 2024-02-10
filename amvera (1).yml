@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.8
+build:
+  requirementsPath: C:\Users\scott\PycharmProjects\pythonProject2\requirements.txt
+run:
+  scriptName: C:\Users\scott\PycharmProjects\pythonProject2\main.py
+  persistenceMount: /data
+  containerPort: 80
